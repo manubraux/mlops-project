@@ -1,0 +1,15 @@
+artifact_uri: file:///home/jovyan/work/mlruns/0/ef0fba8c65a44056a86a5ecc3caead2b/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef0fba8c65a44056a86a5ecc3caead2b
+run_name: secretive-jay-671
+run_uuid: ef0fba8c65a44056a86a5ecc3caead2b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1737901623163
+status: 1
+tags: []
+user_id: jovyan
