@@ -238,18 +238,6 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
-  
-  # mlflow-server: 
-  #   image: ghcr.io/mlflow/mlflow:v2.19.0
-  #   command: sh -c 'echo `mlflow server --host $$HOST --port $$PORT`'
-  #   environment:
-  #     - HOST=0.0.0.0
-  #     - PORT=8081
-  #   ports:
-  #     - "8080:8081"
-  #   volumes:
-  #     - ~/docker-data/mlflow/runs:/mlruns
-  #     - ~/docker-data/mlflow/artifacts:/mlartifacts 
 
   jupyter-notebook:
     image: quay.io/jupyter/base-notebook:b74418220768
